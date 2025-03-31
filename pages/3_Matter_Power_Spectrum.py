@@ -16,7 +16,7 @@ ns_values      = np.linspace(0.85, 1.15, 5)      # e.g., [0.85, 0.925, 1.0, 1.07
 ln10As_values  = np.linspace(2.0, 4.0, 5)        # e.g., [2.0, 2.5, 3.0, 3.5, 4.0]
 
 
-st.set_page_config(page_title="Matter Power Spectrum", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Matter Power Spectrum", page_icon="📊")
 
 # =========================
 # Theoretical Background (Part 1)
