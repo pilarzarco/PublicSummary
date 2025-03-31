@@ -11,14 +11,14 @@ st.markdown("""
 Answer these five questions to find out your cosmic personality and see what your universe's structure looks like!
 """)
 
-# Set up session state flags
+
 if 'show_result' not in st.session_state:
     st.session_state.show_result = False
 
 if 'retake_quiz' not in st.session_state:
     st.session_state.retake_quiz = False
 
-# Handle full quiz reset before rendering anything
+
 if st.session_state.retake_quiz:
     for key in ["q1", "q2", "q3", "q4", "q5"]:
         st.session_state.pop(key, None)
@@ -26,7 +26,7 @@ if st.session_state.retake_quiz:
     st.session_state.retake_quiz = False
     st.rerun()
 
-# Only show quiz if result isn't being shown
+
 if not st.session_state.show_result:
     q1 = st.radio("1. How do you handle change?", [
         "🏃 I adapt fast — go with the flow, quick to act.",
@@ -63,7 +63,7 @@ if not st.session_state.show_result:
     if st.button("Reveal My Cosmic Identity", disabled=not all_answered):
         st.session_state.show_result = True
 
-# Now show the results
+
 if st.session_state.show_result:
     h0_map = {
         "🏃 I adapt fast — go with the flow, quick to act.": "chaotic",

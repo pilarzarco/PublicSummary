@@ -2,10 +2,10 @@ import streamlit as st
 
 st.set_page_config(page_title="Predicting Cosmologies", page_icon="🌌")
 
-# Title of the page
+
 st.title("How Cosmologists Use Technology to Study the Universe")
 
-# Section 1: Overview
+
 st.header("Introduction")
 st.write("""
 Cosmologists study the universe to answer some of its biggest questions: How did it begin? What is it made of? And how will it change over time? 
@@ -14,7 +14,6 @@ To solve these mysteries, they use **advanced technology**, **data analysis**, a
 
 
 
-# Section 2: What Do Cosmologists Do?
 st.header("What Do Cosmologists Do?")
 st.write("""
 Cosmologists gather **data** from telescopes and satellites and use **mathematical models** and **computer simulations** to test ideas about how the universe works. 
@@ -23,7 +22,7 @@ These tools help them understand the formation of galaxies, the behavior of dark
 Cosmologists analyse data and test theories to predict how the universe will behave under different conditions.
 """)
 
-# Add an image for the universe view
+
 st.image('Assets/hubble.png', caption="Image of the Universe taken by the Hubble Space Telescope")
 
 st.markdown("""
@@ -35,7 +34,7 @@ Visit the official Hubble site for more details: <a href="https://hubblesite.org
 """, unsafe_allow_html=True)
 
 
-# Section 3: Data
+
 st.header("Understanding the Data")
 st.write("""
 Cosmologists rely on data collected from space telescopes, satellites, and detectors. This data comes from everything from star positions to cosmic radiation, and **statistics** help cosmologists make sense of it. By analysing patterns in the data, they can predict how the universe works.
@@ -43,10 +42,10 @@ Cosmologists rely on data collected from space telescopes, satellites, and detec
 The universe provides a vast amount of data, and cosmologists use **statistics** to search for patterns. Similar to how weather scientists predict the weather, cosmologists use data to understand the behavior of galaxies and stars.
 """)
 
-# Add a final image of a cosmologist or observatory
+
 st.image('Assets/euclid.jpeg', caption="Euclid Mission, designed to explore the composition and evolution of the universe.")
 
-# Add credits using HTML tags
+
 st.markdown("""
 <sub><br> 
 📸 <i>Image Credit: ESA/Euclid Consortium. Image credit for visual and scientific design.<br> 
@@ -55,7 +54,7 @@ Visit the official Euclid site for more details: <a href="https://www.esa.int/Sc
 </sub>
 """, unsafe_allow_html=True)
 
-# Section 5: Simulating the Universe
+
 st.header("Simulating the Universe")
 st.write("""
 Simulations help cosmologists understand how the universe works. For example, they can simulate how matter behaves under gravity, how galaxies form, or how dark energy might affect the expansion of the universe. 
@@ -72,7 +71,7 @@ Instead of running a full simulation every time, emulators predict the outcome b
 """)
 
 
-# Section 7: Real-World Example
+
 st.header("Real-World Application: Predicting the Universe's Evolution")
 st.write("""
 In this project, the goal was to predict how the universe evolves under different conditions. By using an **emulator** trained on data from earlier simulations, we can predict how **matter** is distributed across galaxies and how it might change in the future. This helps cosmologists understand the large-scale structure of the universe.
@@ -80,7 +79,7 @@ In this project, the goal was to predict how the universe evolves under differen
 The emulator in my project helped predict how matter clusters in the universe without having to run a new simulation for each scenario. This allows scientists to test different models more efficiently and get answers faster.
 """)
 
-# Add an image of matter distribution or a galaxy simulation
+
 st.image('Assets/millenium_image.jpg', caption="Image taken from the Millenium simulation, showing the structure of the universe")
 
 st.markdown("""

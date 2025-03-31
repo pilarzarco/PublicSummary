@@ -3,10 +3,8 @@ import streamlit as st
 st.set_page_config(page_title="Additional Resources", page_icon="📚")
 
 
-# Title of the page
 st.title("Additional Resources 📚")
 
-# Section 1: Python Programming Resources
 st.header("Python Programming Resources")
 st.write("""
 Python is one of the most popular programming languages in science, including cosmology and astronomy. Here are some great resources for getting started with Python programming:
@@ -19,7 +17,6 @@ st.markdown("""
 - **[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)**: A book teaching Python through practical projects that can automate everyday tasks.
 """)
 
-# Section 2: Cool NASA/ESA Websites about Euclid and Cosmology
 st.header("NASA/ESA Websites about Euclid and Cosmology")
 st.write("""
 To dive deeper into the field of cosmology, here are some fantastic websites from NASA and ESA that showcase the **Euclid Mission** and other exciting cosmological projects.
@@ -32,7 +29,7 @@ st.markdown("""
 - **[NASA's James Webb Space Telescope](https://science.nasa.gov/mission/webb/)**: The James Webb Space Telescope (JWST) is designed to study the cosmos in infrared wavelengths and provides insights into early universe formation.
 """)
 
-# Section 3: Statistics Resources
+
 st.header("Statistics Resources")
 st.write("""
 A solid understanding of statistics is essential for analysing cosmological data. Here are some resources that will help you master statistics concepts:
@@ -45,7 +42,7 @@ st.markdown("""
 - **[R for Data Science](https://r4ds.had.co.nz/)**: An excellent resource for learning statistical analysis using the R programming language, especially for analysing and visualising data.
 """)
 
-# Section 4: Additional Learning Platforms for Physics and Astronomy
+
 st.header("Learning Platforms for Physics and Astronomy")
 st.write("""
 These platforms offer a variety of courses on physics, astronomy, and related subjects, which are great for enhancing your understanding of cosmology.
@@ -57,7 +54,7 @@ st.markdown("""
 - **[Khan Academy - High School Physics](https://www.khanacademy.org/science/highschool-physics)**: Free tutorials covering essential physics topics, including motion, energy, and waves, which are crucial for understanding cosmological phenomena.
 """)
 
-# Section 5: Further Reading
+
 st.header("Further Reading")
 st.write("""
 For those interested in diving deeper into cosmology and related fields, here are some books and articles that will expand your knowledge:
