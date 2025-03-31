@@ -25,7 +25,7 @@ Imagine you have several strategies for picking the right pieces of a puzzle:
 - **Gaussian LHS:** Focuses the values near the center, where the models are more stable.
 - **Hybrid LHS:** Combines both uniform and Gaussian methods to balance wide coverage with precision.
 
-The goal is to discover which strategy leads to the most accurate boost factor predictions, meaning most of the predictions have less than $1\%$ error.
+The goal is to discover which strategy leads to the most accurate boost factor predictions, meaning most of the predictions have less than $1%$ error.
 """)
 
 st.image('Assets/GaussianNodes.png', caption="Latin Hypercube Sampling (LHS) Architecture")
