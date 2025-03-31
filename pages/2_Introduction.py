@@ -27,7 +27,7 @@ In my project, I experimented with different sampling techniques to determine th
 
 ---
 
-### 🎥 Visualizing Cosmic Evolution
+### 🎥 Visualising Cosmic Evolution
 
 It’s one thing to describe cosmic structure in words, but it’s quite another to see it unfold. The video below showcases the **Millennium Simulation**, a large-scale computer model that illustrates how gravity pulls matter together to form galaxies and clusters over billions of years.
 """)

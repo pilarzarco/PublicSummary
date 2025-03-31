@@ -121,7 +121,7 @@ These parameters shape how structure forms in your universe, from huge galaxy cl
 
 The plot below shows your universe’s **matter power spectrum**, a graph that reveals how matter is spread across the cosmos at different scales.
 
-- The **x-axis** shows the **scale** we’re looking at, using a quantity called *wavenumber* (k). Smaller values of k correspond to **large cosmic structures** (like superclusters), while larger k means **small-scale structures** (like galaxies).
+- The **x-axis** shows the **scale** we’re looking at, using a quantity called the *wavenumber* (k). Smaller values of k correspond to **large cosmic structures** (like superclusters), while larger k means **small-scale structures** (like galaxies).
 - The **y-axis** shows **how much structure exists** at each scale — in other words, how strongly matter clumps together at that size.
 
 Together, the shape of this curve tells us how your universe forms structure: does it clump up quickly? Is it more even and spread out? Where are the biggest fluctuations?

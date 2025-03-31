@@ -24,12 +24,12 @@ st.set_page_config(page_title="Matter Power Spectrum", page_icon="📊")
 st.markdown(r"""
 # The Matter Power Spectrum: Mapping the Universe’s Structure
 
-The universe’s matter isn’t distributed evenly—it clumps into galaxies, clusters, and vast cosmic voids.
+The universe’s matter isn’t distributed evenly, it clumps into galaxies, clusters, and vast cosmic voids.
 To quantify these patterns, cosmologists use the matter power spectrum, **P(k)**, which reveals how much structure exists at different scales, from enormous superclusters to individual galaxies.
 
 ## Density Fluctuations and Fourier Space
 
-At its core, the power spectrum analyzes **density fluctuations**, regions where matter is more or less concentrated than the cosmic average. By applying a **Fourier transform**, we break these fluctuations into waves of different sizes.
+At its core, the power spectrum analyses **density fluctuations**, regions where matter is more or less concentrated than the cosmic average. By applying a **Fourier transform**, we break these fluctuations into waves of different sizes.
 Each wavenumber **k** corresponds to a physical scale in the universe: small **k** values describe large, smooth structures (like superclusters), while large **k** values reveal smaller, detailed features (like galaxies).
 **P(k)** then measures the strength of these fluctuations at each scale.
 
@@ -40,7 +40,7 @@ On large scales (low **k**), matter clustering is in the **linear regime**, wher
 # =========================
 # Callout Prompt
 # =========================
-st.info("Try changing the parameters in the sidebar to see how the matter power spectrum behaves under different cosmological conditions.")
+st.info("Try changing the parameters in the sidebar to see how the matter power spectrum behaves under different cosmological conditions. If you look closely, you will see some changes in the graph!")
 
 # =========================
 # Helper function for formatting float display
@@ -158,5 +158,5 @@ Embedded in the power spectrum is a subtle bump near **k ≈ 0.05 h/Mpc**, a rel
 
 ## Why It Matters
 
-By measuring **P(k)**, we test fundamental theories of dark matter, inflation, and gravity. Its shape depends on cosmic ingredients like $\Omega_m$ (total matter density) and $n_s$ (primordial fluctuation strength), making it a powerful probe of both the universe’s composition and its evolution. Tools like **CAMB** compute it from first principles, while galaxy surveys map it in practice, bridging the gap between theory and observation.
+By measuring $P(k), we test fundamental theories of dark matter, inflation, and gravity. Its shape depends on cosmic ingredients like $\Omega_m$ (total matter density) and $n_s$ (primordial fluctuation strength), making it a powerful probe of both the universe’s composition and its evolution. Tools like **CAMB** compute it from first principles, while galaxy surveys map it in practice, bridging the gap between theory and observation.
 """, unsafe_allow_html=True)

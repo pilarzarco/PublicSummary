@@ -20,7 +20,7 @@ st.write("""
 Cosmologists gather **data** from telescopes and satellites and use **mathematical models** and **computer simulations** to test ideas about how the universe works. 
 These tools help them understand the formation of galaxies, the behavior of dark matter, and the expansion of the universe.
 
-Cosmologists analyze data and test theories to predict how the universe will behave under different conditions.
+Cosmologists analyse data and test theories to predict how the universe will behave under different conditions.
 """)
 
 # Add an image for the universe view
@@ -38,7 +38,7 @@ Visit the official Hubble site for more details: <a href="https://hubblesite.org
 # Section 3: Data
 st.header("Understanding the Data")
 st.write("""
-Cosmologists rely on data collected from space telescopes, satellites, and detectors. This data comes from everything from star positions to cosmic radiation, and **statistics** help cosmologists make sense of it. By analyzing patterns in the data, they can predict how the universe works.
+Cosmologists rely on data collected from space telescopes, satellites, and detectors. This data comes from everything from star positions to cosmic radiation, and **statistics** help cosmologists make sense of it. By analysing patterns in the data, they can predict how the universe works.
 
 The universe provides a vast amount of data, and cosmologists use **statistics** to search for patterns. Similar to how weather scientists predict the weather, cosmologists use data to understand the behavior of galaxies and stars.
 """)
@@ -85,7 +85,7 @@ st.image('Assets/millenium_image.jpg', caption="Image taken from the Millenium s
 
 st.markdown("""
 <sub><br>
-📸 <i>Image Credit: Millennium Simulation Project. Simulation by the Virgo Consortium. Visualization by the Max Planck Institute for Astrophysics.<br>
+📸 <i>Image Credit: Millennium Simulation Project. Simulation by the Virgo Consortium. Visualisation by the Max Planck Institute for Astrophysics.<br>
 Springel et al., Nature 435, 629–636 (2005). <a href="https://doi.org/10.1038/nature03597" target="_blank">DOI: 10.1038/nature03597</a></i>
 </sub>
 """, unsafe_allow_html=True)

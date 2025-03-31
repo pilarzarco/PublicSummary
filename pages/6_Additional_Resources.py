@@ -35,14 +35,14 @@ st.markdown("""
 # Section 3: Statistics Resources
 st.header("Statistics Resources")
 st.write("""
-A solid understanding of statistics is essential for analyzing cosmological data. Here are some resources that will help you master statistics concepts:
+A solid understanding of statistics is essential for analysing cosmological data. Here are some resources that will help you master statistics concepts:
 """)
 
 st.markdown("""
 - **[Khan Academy - Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)**: Free online courses on the fundamentals of statistics, from data interpretation to probability theory.
 - **[Coursera - Introduction to Statistics by Stanford University](https://www.coursera.org/learn/stanford-statistics)**: A free course that covers basic statistics and probability concepts, focusing on real-world applications and examples.
 - **[StatQuest with Josh Starmer](https://www.youtube.com/user/joshstarmer)**: A YouTube channel that simplifies complex statistics concepts through entertaining and easy-to-understand videos.
-- **[R for Data Science](https://r4ds.had.co.nz/)**: An excellent resource for learning statistical analysis using the R programming language, especially for analyzing and visualizing data.
+- **[R for Data Science](https://r4ds.had.co.nz/)**: An excellent resource for learning statistical analysis using the R programming language, especially for analysing and visualising data.
 """)
 
 # Section 4: Additional Learning Platforms for Physics and Astronomy

@@ -3,3 +3,4 @@ matter_power_spectra/
 credentials.json
 matterpower.py
 .streamlit/
+__pycache__/
