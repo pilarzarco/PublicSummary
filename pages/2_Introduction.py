@@ -43,12 +43,6 @@ Springel et al., Nature 435, 629–636 (2005). <a href="https://doi.org/10.1038/
 </sub>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-To complement the video, here’s a striking image capturing a snapshot of the cosmic web – the intricate network of matter that threads through the Universe.
-""")
-
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cosmic_web_simulation.jpg/640px-Cosmic_web_simulation.jpg", 
-         caption="Visualization of the Cosmic Web – a network of galaxies and dark matter. (Image credit: Wikimedia Commons)")
 
 st.markdown("""
 ---
