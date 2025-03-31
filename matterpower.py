@@ -5,18 +5,18 @@ import os
 import pandas as pd
 
 # Define parameter ranges
-h0_values = np.linspace(50, 90, 5)  # Hubble constant
-omega_m_values = np.linspace(0.1, 0.6, 6)  # Matter density
-omega_b_values = np.linspace(0.01, 0.15, 6)  # Baryon density
-ns_values = np.linspace(0.85, 1.15, 5)  # Spectral index
-ln10As_values = np.linspace(2.0, 4.0, 5)  # Amplitude of scalar perturbations
+h0_values = np.linspace(50, 90, 5)  
+omega_m_values = np.linspace(0.1, 0.6, 6)  
+omega_b_values = np.linspace(0.01, 0.15, 6)  
+ns_values = np.linspace(0.85, 1.15, 5)  
+ln10As_values = np.linspace(2.0, 4.0, 5)  
 
 # Create output folder
 output_dir = "matter_power_spectra"
 os.makedirs(output_dir, exist_ok=True)
 
 def run_camb(h0, omega_m, omega_b, ns, ln10As):
-    As = np.exp(ln10As) / 1e10  # Convert to A_s
+    As = np.exp(ln10As) / 1e10  
     pars = camb.CAMBparams()
     pars.set_cosmology(H0=h0, 
                        ombh2=omega_b * h0**2 / 10000, 
@@ -38,14 +38,14 @@ for h0 in h0_values:
         for omega_b in omega_b_values:
             for ns in ns_values:
                 for ln10As in ln10As_values:
-                    # Run CAMB simulation for current parameter set
+                    
                     k, pk_vals = run_camb(h0, omega_m, omega_b, ns, ln10As)
                     
-                    # Create a file name based on parameters
+                    
                     filename = f"h0_{h0}_omega_m_{omega_m}_omega_b_{omega_b}_ns_{ns}_ln10As_{ln10As}.csv"
                     filepath = os.path.join(output_dir, filename)
                     
-                    # Save k, P(k) to CSV
+                    
                     df = pd.DataFrame({"k [1/Mpc]": k, "P(k) [Mpc^3]": pk_vals})
                     df.to_csv(filepath, index=False)
                     print(f"Saved: {filepath}")

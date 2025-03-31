@@ -111,22 +111,22 @@ if st.session_state.show_result:
 
 ### 🧬 How does this relate to the Universe?
 
-Each answer you gave maps to a real cosmological parameter — like how fast the universe expands, how much matter it contains, or how smooth or clumpy it started out.
+Each answer you gave maps to a real cosmological parameter, like how fast the universe expands, how much matter it contains, or how smooth or clumpy it started out.
 
-These parameters shape how structure forms in your universe — from huge galaxy clusters to tiny galaxies. The way matter is distributed across different scales is captured by something called the **matter power spectrum**.
+These parameters shape how structure forms in your universe, from huge galaxy clusters to tiny galaxies. The way matter is distributed across different scales is captured by something called the **matter power spectrum**.
 
 ---
 
 ### 📈 What is the Matter Power Spectrum?
 
-The plot below shows your universe’s **matter power spectrum** — a graph that reveals how matter is spread across the cosmos at different scales.
+The plot below shows your universe’s **matter power spectrum**, a graph that reveals how matter is spread across the cosmos at different scales.
 
 - The **x-axis** shows the **scale** we’re looking at, using a quantity called *wavenumber* (k). Smaller values of k correspond to **large cosmic structures** (like superclusters), while larger k means **small-scale structures** (like galaxies).
 - The **y-axis** shows **how much structure exists** at each scale — in other words, how strongly matter clumps together at that size.
 
 Together, the shape of this curve tells us how your universe forms structure: does it clump up quickly? Is it more even and spread out? Where are the biggest fluctuations?
 
-Your unique personality result changes the curve — just like different physics would change a real universe.
+Your unique personality result changes the curve, just like different physics would change a real universe.
 
 ---
 """)

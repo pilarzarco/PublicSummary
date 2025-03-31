@@ -2,74 +2,61 @@ import streamlit as st
 
 st.set_page_config(page_title="Introduction", page_icon="📖")
 
-st.title("📖 Introduction to Cosmology")
-
 st.markdown("""
-You’ve just seen a simulation of a universe, one built from a set of numbers.  
-Now let’s talk about what those numbers actually mean, and how they help us understand the Universe.
+You've just seen an example of how we can study the structure and evolution of the universe, and it is all built entirely from a set of numbers!
+Tiny differences in these numbers can change our picture of the cosmos, and finding accurate values for these numbers can help us understand the world we live in. Let's look at what these numbers mean and why they are at the heart of my research!
 
 ---
 
 ### 🌌 What Is Cosmology?
 
-Cosmology is the study of the Universe on the largest scales.  
-It’s not just about stars or galaxies, but about space itself. How it began, how it changes, and what it’s made of.
+Cosmology is the study of the structure, history and evolution of the universe.  
+It isn’t just about stars or galaxies; it’s about the very fabric of spacetime, how it began, how it changes, and what it’s made of.  
+Even though the Universe appears overwhelmingly complex, much of its behaviour can be described using a handful of physical parameters, such as the rate of expansion, the amount of matter, and the initial conditions of cosmic structure.
 
-Even though the Universe seems impossibly complex, a lot of its behaviour can be captured by a small set of physical parameters. These include things like how fast the Universe expands, how much matter it contains, and how smooth or bumpy it was at the beginning.
-
-These numbers form the basis of our models, which are simplified but powerful ways of describing how the Universe works.
+These key numbers form the foundation of our computational and mathematical models; simplified but powerful representations that help us understand and predict the evolution of the cosmos.
 
 ---
 
 ### 🧮 Building a Universe
 
-In physics, when you can describe something with numbers, you can usually predict how it behaves. Cosmology works the same way.
+In physics, if you can describe something with numbers, you can usually predict how it behaves. Cosmology works in much the same way.  
+By selecting values for parameters like the Hubble constant or the matter density, scientists can use simulations to study how the Universe evolves over time. However, these simulations are extremely computationally expensive, which means we need a faster method to be able to study the universe. 
 
-By choosing values for things like the Hubble constant or the amount of matter in the Universe, scientists can simulate how space evolves over time. We use software that takes those values and calculates how structures like galaxies and clusters would form.
-
-Once we have those predictions, we compare them to what we actually see with telescopes. If they match, we might be on the right track. If not, it’s back to the drawing board.
+In my project, I experimented with different sampling techniques to determine the most effective way of choosing these parameters. Instead of relying on full, computationally expensive simulations, I used something called an emulator to predict the outcome of these simulations. By comparing different sampling strategies, I identified the most optimal method for achieving high accuracy predictions of the universe's structure.
 
 ---
 
-### 🎥 What Do These Simulations Look Like?
+### 🎥 Visualizing Cosmic Evolution
 
-It’s one thing to talk about structure forming across the Universe, but it’s much easier to understand when you can see it happen.
-
-The video below shows the **Millennium Simulation**, a large-scale computer model of how matter clumps together under gravity over billions of years.
+It’s one thing to describe cosmic structure in words, but it’s quite another to see it unfold. The video below showcases the **Millennium Simulation**, a large-scale computer model that illustrates how gravity pulls matter together to form galaxies and clusters over billions of years.
 """)
 
 st.video("https://www.youtube.com/watch?v=ClIiUkHPkIE")
 
 st.markdown("""
-Each bright thread or cluster in the simulation represents regions of high matter density, where galaxies and clusters are most likely to form.
+Each bright thread or cluster in the simulation represents regions where matter is densely packed, where galaxies and clusters are likely to form.
 
-This is why we build simulations in cosmology. They help us test ideas about dark matter, gravity, and the evolution of the Universe in a way that’s both visual and scientific.
-
-<sub><br>
+<sub>
 📽️ <i>Simulation by the Virgo Consortium. Video by the Max Planck Institute for Astrophysics.<br>
 Springel et al., Nature 435, 629–636 (2005). <a href="https://doi.org/10.1038/nature03597" target="_blank">DOI: 10.1038/nature03597</a></i>
 </sub>
 """, unsafe_allow_html=True)
 
 st.markdown("""
+To complement the video, here’s a striking image capturing a snapshot of the cosmic web – the intricate network of matter that threads through the Universe.
+""")
+
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cosmic_web_simulation.jpg/640px-Cosmic_web_simulation.jpg", 
+         caption="Visualization of the Cosmic Web – a network of galaxies and dark matter. (Image credit: Wikimedia Commons)")
+
+st.markdown("""
 ---
 
-### 🔭 Why This Matters
+### 🧠 From Quiz to Cosmology: Connecting the Dots
 
-Understanding how matter is distributed throughout the Universe helps us figure out what the Universe is made of.
+After exploring your cosmic personality quiz, where your responses translated into a unique matter power spectrum, you’ve seen firsthand how subtle variations in key parameters can dramatically alter our understanding of the Universe.  
+Now, building on that foundation, this page introduces you to the broader topic and the research behind it. We’ll unpack how these numerical models are constructed, why they matter, and how they help us test and refine our ideas about the cosmos.
 
-It’s one of the ways we study dark matter and dark energy, things we can't see directly, but that leave a clear imprint on the way galaxies form and move.  
-It also helps us test our theories of gravity on the biggest scales possible.
-
-This kind of modelling is one of the main ways we try to figure out how the Universe works and where it might be heading.
-
----
-
-### 🧠 From Quiz to Cosmology
-
-Earlier, you explored one possible version of the Universe by answering some questions. Each answer was linked to a physical assumption; things like how fast expansion happens or how clumpy matter is.
-
-In real research, scientists vary these assumptions and simulate thousands of different Universes to see which ones match reality best.
-
-The quiz was just a small taste. Next, we’ll break down what that power spectrum plot actually showed, and how it helps us study the cosmos.
+Enjoy this journey into the heart of cosmology, where every number tells a story and every simulation brings us one step closer to understanding the Universe!
 """)
