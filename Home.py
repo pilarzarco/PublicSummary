@@ -4,7 +4,7 @@ st.set_page_config(page_title="Public Summary", layout="wide", page_icon="✨")
 
 
 st.title("✨ Welcome to my Public Summary!")
-st.subtitle("How to predict accurate cosmological statistics in any model of gravity")
+st.subheader("How to predict accurate cosmological statistics in any model of gravity")
 # Sidebar title
 st.sidebar.title("Navigation", icon="🔍")
 
