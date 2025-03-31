@@ -8,7 +8,7 @@ st.write("""
 As you have seen earlier, in cosmology, the **matter power spectrum** is our key tool for understanding how matter is distributed across the Universe. 
 A closely related concept is the **boost factor**, which compares the clumping of matter in non-linear simulations to that in linear models, essentially showing how gravity enhances the clustering of matter.
 
-This project sets out to predict the boost factor quickly using a **Gaussian Process emulator**. Instead of running full, time-consuming simulations for every set of cosmological parameters, the emulator learns from a carefully chosen dataset. The main goal is to determine which sampling method yields the most predictions with less than $1\%$ error.
+This project sets out to predict the boost factor quickly using a **Gaussian Process emulator**. Instead of running full, time-consuming simulations for every set of cosmological parameters, the emulator learns from a carefully chosen dataset. The main goal is to determine which sampling method yields the most predictions with less than $1%$ error.
 """)
 
 st.header("The Challenge")
@@ -34,12 +34,12 @@ st.header("Training and Testing the Emulator")
 st.write("""
 After selecting the parameter sets with LHS, each set was fed into the CAMB simulation tool to compute the boost factor. 
 These simulation results formed the training data for the **Gaussian Process emulator**, which learned the relationship between the input parameters and the boost factor.
-To validate the emulator’s accuracy, it was tested on 49 independent datasets, ensuring its predictions consistently stayed within a 1% error margin.
+To validate the emulator’s accuracy, it was tested on 49 independent datasets, ensuring its predictions consistently stayed within a $1%$ error margin.
 """)
 
 st.header("Results and Findings")
 st.write("""
-The evaluation revealed that the **Gaussian LHS** method consistently outperformed the other strategies, delivering the highest fraction of predictions with less than 1% error. 
+The evaluation revealed that the **Gaussian LHS** method consistently outperformed the other strategies, delivering the highest fraction of predictions with less than $1%$ error. 
 This indicates that focusing on the central region of the parameter space, where the models are more reliable, leads to more accurate boost factor predictions.
 """)
 
