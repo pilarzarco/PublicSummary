@@ -2,3 +2,4 @@ venv/
 matter_power_spectra/
 credentials.json
 matterpower.py
+.streamlit/

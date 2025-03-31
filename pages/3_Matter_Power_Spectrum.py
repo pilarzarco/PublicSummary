@@ -15,12 +15,6 @@ omega_b_values = np.linspace(0.01, 0.15, 6)      # e.g., [0.01, 0.04, 0.07, 0.10
 ns_values      = np.linspace(0.85, 1.15, 5)      # e.g., [0.85, 0.925, 1.0, 1.075, 1.15]
 ln10As_values  = np.linspace(2.0, 4.0, 5)        # e.g., [2.0, 2.5, 3.0, 3.5, 4.0]
 
-# =========================
-# Matplotlib Config
-# =========================
-plt.rcParams['text.usetex'] = True
-plt.rcParams['font.family'] = 'serif'
-plt.rcParams['font.size'] = 12
 
 st.set_page_config(page_title="Matter Power Spectrum", layout="wide", page_icon="📊")
 
@@ -68,8 +62,8 @@ with st.sidebar:
 # =========================
 # Google Drive API Settings & Helper Functions
 # =========================
-API_KEY = 'AIzaSyCLNTzc2MWpXnuRj0JFdt4Xcgn5mk4-6u0'
-FOLDER_ID = '1F1goeJkrxH7octwXfGQgvsvvs8v-7TqR'
+API_KEY = st.secrets["API_KEY"]
+FOLDER_ID = st.secrets["FOLDER_ID"]
 
 @st.cache_data
 def get_files_from_drive():
