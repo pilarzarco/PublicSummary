@@ -1,6 +1,6 @@
 # Public Summary
 ---
-A general-audience version of my master's research, presented in the shape of an interactive website hosted on [Streamlit](https://streamlit.io/). 
+A general-audience version of my master's research, presented as an interactive website hosted on [Streamlit](https://streamlit.io/). 
 
 > **Note:** This website is hosted on Streamlit's free tier, so the initial load may take a minute.
 
